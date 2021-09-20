@@ -111,18 +111,18 @@
         GAMEOVER_CLEAR_TIME: 750,
         GAP_COEFFICIENT: 0.6,
         GRAVITY: 0.6,
-        INITIAL_JUMP_VELOCITY: 12,
+        INITIAL_JUMP_VELOCITY: 60,
         INVERT_FADE_DURATION: 12000,
         INVERT_DISTANCE: 700,
         MAX_BLINK_COUNT: 3,
         MAX_CLOUDS: 6,
         MAX_OBSTACLE_LENGTH: 3,
         MAX_OBSTACLE_DUPLICATION: 2,
-        MAX_SPEED: 13,
-        MIN_JUMP_HEIGHT: 35,
+        MAX_SPEED: 100,
+        MIN_JUMP_HEIGHT: 50,
         MOBILE_SPEED_COEFFICIENT: 1.2,
         RESOURCE_TEMPLATE_ID: 'audio-resources',
-        SPEED: 6,
+        SPEED: 10,
         SPEED_DROP_COEFFICIENT: 3
     };
 
@@ -201,7 +201,7 @@
      * @enum {Object}
      */
     Runner.keycodes = {
-        JUMP: { '38': 1, '32': 1 },  // Up, spacebar
+        JUMP: { '38': 1, '32': 1 },  // Up, control
         DUCK: { '40': 1 },  // Down
         RESTART: { '13': 1 }  // Enter
     };
